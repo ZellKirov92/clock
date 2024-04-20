@@ -1,0 +1,54 @@
+html {
+    max-width: 768px;
+}
+
+body {
+    margin-inline: auto;
+}
+
+#clock {
+    position: relative;
+    height: 350px;
+    width: 350px;
+    border: 10px solid hsl(120, 1%, 26%);
+    border-radius: 175px;
+    background-color: hsl(0, 0%, 0%);
+}
+
+#hour_hand {
+    position: absolute;
+    left: 170px;
+    top: 80px;
+    height: 90px;
+    width: 10px;
+    background-color: hsl(119, 100%, 50%);
+}
+
+#minute_hand {
+    position: absolute;
+    left: 170px;
+    top: 70px;
+    height: 100px;
+    width: 10px;
+    background-color: hsl(119, 100%, 50%);
+}
+
+#second_hand {
+    position: absolute;
+    left: 173px;
+    top: 55px;
+    height: 110px;
+    width: 4px;
+    background-color: hsl(119, 100%, 50%);
+}
+
+#dot {
+    position: absolute;
+    left: 165px;
+    top: 165px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: hsl(119, 100%, 50%);
+}
+
