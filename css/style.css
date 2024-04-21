@@ -11,13 +11,20 @@ body {
     height: 350px;
     width: 350px;
     border: 10px solid hsl(120, 1%, 26%);
-    border-radius: 175px;
+    border-radius: 185px;
     background-color: hsl(0, 0%, 0%);
+}
+
+#hour_hand, #minute_hand, #second_hand {
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid;
+    transform-origin: bottom;
 }
 
 #hour_hand {
     position: absolute;
-    left: 170px;
+    left: 171px;
     top: 80px;
     height: 90px;
     width: 10px;
@@ -27,7 +34,7 @@ body {
 #minute_hand {
     position: absolute;
     left: 170px;
-    top: 70px;
+    top: 79px;
     height: 100px;
     width: 10px;
     background-color: hsl(119, 100%, 50%);
@@ -35,20 +42,137 @@ body {
 
 #second_hand {
     position: absolute;
-    left: 173px;
+    left: 174px;
     top: 55px;
-    height: 110px;
+    height: 125px;
     width: 4px;
     background-color: hsl(119, 100%, 50%);
 }
 
 #dot {
     position: absolute;
-    left: 165px;
-    top: 165px;
+    left: 167px;
+    top: 169px;
     height: 20px;
     width: 20px;
     border-radius: 10px;
     background-color: hsl(119, 100%, 50%);
 }
 
+#twelve_hour {
+    position: absolute;
+    left: 173px;
+    top: 0;
+    height: 20px;
+    width: 4px;
+    background-color: hsl(119, 100%, 50%);
+}
+
+#three_hour {
+    position: absolute;
+    right: 8px;
+    top: 173px;
+    transform: rotate(90deg);
+    height: 20px;
+    width: 4px;
+    background-color: hsl(119, 100%, 50%);
+}
+
+#six_hour{
+    position: absolute;
+    left: 170px;
+    bottom: 0;
+    height: 20px;
+    width: 4px;
+    background-color: hsl(119, 100%, 50%);
+}
+
+#nine_hour {
+    position: absolute;
+    left: 8px;
+    top: 173px;
+    transform: rotate(90deg);
+    height: 20px;
+    width: 4px;
+    background-color: hsl(119, 100%, 50%);
+}
+
+#five_minutes {
+    position: absolute;
+    right: 89px;
+    top: 25px;
+    transform: rotate(30deg);
+    height: 15px;
+    width: 2px;
+    background-color: hsl(119, 100%, 50%);
+}
+
+#ten_minutes {
+    position: absolute;
+    right: 26px;
+    top: 90px;
+    transform: rotate(60deg);
+    height: 15px;
+    width: 2px;
+    background-color: hsl(119, 100%, 50%);
+}
+
+#twenty_minutes {
+    position: absolute;
+    right: 34px;
+    top: 260px;
+    transform: rotate(120deg);
+    height: 15px;
+    width: 2px;
+    background-color: hsl(119, 100%, 50%);
+}
+
+#twenty_five_minutes {
+    position: absolute;
+    right: 100px;
+    top: 318px;
+    transform: rotate(150deg);
+    height: 15px;
+    width: 2px;
+    background-color: hsl(119, 100%, 50%);
+}
+
+#thirty_five_minutes {
+    position: absolute;
+    left: 93px;
+    top: 313px;
+    transform: rotate(30deg);
+    height: 15px;
+    width: 2px;
+    background-color: hsl(119, 100%, 50%);
+}
+
+#fourty_minutes {
+    position: absolute;
+    left: 31px;
+    top: 257px;
+    transform: rotate(60deg);
+    height: 15px;
+    width: 2px;
+    background-color: hsl(119, 100%, 50%);
+}
+
+#fifty_minutes {
+    position: absolute;
+    left: 95px;
+    top: 20px;
+    transform: rotate(150deg);
+    height: 15px;
+    width: 2px;
+    background-color: hsl(119, 100%, 50%);
+}
+
+#fifty_five_minutes {
+    position: absolute;
+    left: 26px;
+    top: 90px;
+    transform: rotate(120deg);
+    height: 15px;
+    width: 2px;
+    background-color: hsl(119, 100%, 50%);
+}
