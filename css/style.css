@@ -1,8 +1,9 @@
-html {
-    max-width: 768px;
-}
-
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 768px;
     margin-inline: auto;
 }
 
@@ -12,7 +13,7 @@ body {
     width: 350px;
     border: 10px solid hsl(120, 1%, 26%);
     border-radius: 185px;
-    background-color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 6%, 91%);
 }
 
 #hour_hand, #minute_hand, #second_hand {
@@ -25,28 +26,28 @@ body {
 #hour_hand {
     position: absolute;
     left: 171px;
-    top: 80px;
+    top: 88px;
     height: 90px;
     width: 10px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #minute_hand {
     position: absolute;
     left: 170px;
-    top: 79px;
-    height: 100px;
+    top: 69px;
+    height: 110px;
     width: 10px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #second_hand {
     position: absolute;
     left: 174px;
-    top: 55px;
+    top: 52px;
     height: 125px;
     width: 4px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #dot {
@@ -56,45 +57,45 @@ body {
     height: 20px;
     width: 20px;
     border-radius: 10px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #twelve_hour {
     position: absolute;
-    left: 173px;
+    left: 175px;
     top: 0;
     height: 20px;
     width: 4px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #three_hour {
     position: absolute;
     right: 8px;
-    top: 173px;
+    top: 171px;
     transform: rotate(90deg);
     height: 20px;
     width: 4px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #six_hour{
     position: absolute;
-    left: 170px;
+    left: 172px;
     bottom: 0;
     height: 20px;
     width: 4px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #nine_hour {
     position: absolute;
     left: 8px;
-    top: 173px;
+    top: 171px;
     transform: rotate(90deg);
     height: 20px;
     width: 4px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #five_minutes {
@@ -104,7 +105,7 @@ body {
     transform: rotate(30deg);
     height: 15px;
     width: 2px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #ten_minutes {
@@ -114,27 +115,27 @@ body {
     transform: rotate(60deg);
     height: 15px;
     width: 2px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #twenty_minutes {
     position: absolute;
-    right: 34px;
-    top: 260px;
+    right: 32px;
+    top: 258px;
     transform: rotate(120deg);
     height: 15px;
     width: 2px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #twenty_five_minutes {
     position: absolute;
-    right: 100px;
-    top: 318px;
+    right: 96px;
+    top: 314px;
     transform: rotate(150deg);
     height: 15px;
     width: 2px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #thirty_five_minutes {
@@ -144,17 +145,17 @@ body {
     transform: rotate(30deg);
     height: 15px;
     width: 2px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #fourty_minutes {
     position: absolute;
-    left: 31px;
-    top: 257px;
+    left: 30px;
+    top: 255px;
     transform: rotate(60deg);
     height: 15px;
     width: 2px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #fifty_minutes {
@@ -164,7 +165,7 @@ body {
     transform: rotate(150deg);
     height: 15px;
     width: 2px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 
 #fifty_five_minutes {
@@ -174,5 +175,5 @@ body {
     transform: rotate(120deg);
     height: 15px;
     width: 2px;
-    background-color: hsl(119, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
